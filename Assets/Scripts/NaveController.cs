@@ -14,6 +14,10 @@ public class NaveController : MonoBehaviour
 	float distanciaAngular, deslocamentoAngular, passoAngular;
 	Vector3 distanciaLinear, deslocamentoLinear, passoLinear;
 
+	private void Update(){
+		
+	}
+
 	public void IrPara(Vector3 novoAlvo) {
 		alvo = novoAlvo;
 
